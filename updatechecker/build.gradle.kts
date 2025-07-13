@@ -21,7 +21,10 @@ android {
 }
 
 dependencies {
-    // your deps
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
 }
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
